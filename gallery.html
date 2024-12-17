@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="terms-conditions.html">Terms & Conditions</a></li>]
+            </ul>
+        </nav>        
+    </header>
+
+    <section id="gallery">
+        <div class="container">
+            <h1>Gallery</h1>
+            
+            <div class="filter-buttons">
+                <button onclick="filterGallery('portrait')">Portrait</button>
+                <button onclick="filterGallery('events')">Events</button>
+                <button onclick="filterGallery('brands')">Brands</button>
+                <button onclick="filterGallery('studio')">Studio</button>
+                <button onclick="filterGallery('all')">All</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item portrait">
+                    <img src="img/portrait1.jpg" alt="Portrait 1">
+                    <p>Portrait 1</p>
+                </div>
+                <div class="gallery-item portrait">
+                    <img src="img/portrait2.jpg" alt="Portrait 2">
+                    <p>Portrait 2</p>
+                </div>
+                <div class="gallery-item portrait">
+                    <img src="img/portrait3.jpeg" alt="Portrait 3">
+                    <p>Portrait 3</p>
+                </div>
+                <div class="gallery-item portrait">
+                    <img src="img/portrait4.jpeg" alt="Portrait 4">
+                    <p>Portrait 4</p>
+                </div>
+
+                <div class="gallery-item events">
+                    <img src="img/event1.jpg" alt="Event 1">
+                    <p>Event 1</p>
+                </div>
+                <div class="gallery-item events">
+                    <img src="img/event2.jpg" alt="Event 2">
+                    <p>Event 2</p>
+                </div>
+                <div class="gallery-item events">
+                    <img src="img/event3.jpg" alt="Event 3">
+                    <p>Event 3</p>
+                </div>
+                <div class="gallery-item events">
+                    <img src="img/event4.jpg" alt="Event 4">
+                    <p>Event 4</p>
+                </div>
+
+                <div class="gallery-item brands">
+                    <img src="img/brand1.jpg" alt="Brand 1">
+                    <p>Brand 1</p>
+                </div>
+                <div class="gallery-item brands">
+                    <img src="img/brand2.jpg" alt="Brand 2">
+                    <p>Brand 2</p>
+                </div>
+                <div class="gallery-item brands">
+                    <img src="img/brand3.jpg" alt="Brand 3">
+                    <p>Brand 3</p>
+                </div>
+                <div class="gallery-item brands">
+                    <img src="img/brand4.jpg" alt="Brand 4">
+                    <p>Brand 4</p>
+                </div>
+
+                <div class="gallery-item studio">
+                    <img src="img/studio1.jpg" alt="Studio 1">
+                    <p>Studio 1</p>
+                </div>
+                <div class="gallery-item studio">
+                    <img src="img/studio2.jpg" alt="Studio 2">
+                    <p>Studio 2</p>
+                </div>
+                <div class="gallery-item studio">
+                    <img src="img/studio3.jpg" alt="Studio 3">
+                    <p>Studio 3</p>
+                </div>
+                <div class="gallery-item studio">
+                    <img src="img/studio4.jpg" alt="Studio 4">
+                    <p>Studio 4</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EJ Studios. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
